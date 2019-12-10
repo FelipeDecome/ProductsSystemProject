@@ -23,6 +23,10 @@ class ComposerStaticInit8399ba795433bd91c39b7c6e672f0d1c
         array (
             'Psr\\Container\\' => 14,
         ),
+        'F' => 
+        array (
+            'FelipeDecome\\ProductSystem\\' => 27,
+        ),
         'D' => 
         array (
             'Doctrine\\ORM\\' => 13,
@@ -57,6 +61,10 @@ class ComposerStaticInit8399ba795433bd91c39b7c6e672f0d1c
         'Psr\\Container\\' => 
         array (
             0 => __DIR__ . '/..' . '/psr/container/src',
+        ),
+        'FelipeDecome\\ProductSystem\\' => 
+        array (
+            0 => __DIR__ . '/../..' . '/src',
         ),
         'Doctrine\\ORM\\' => 
         array (

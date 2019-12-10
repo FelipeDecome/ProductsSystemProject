@@ -15,5 +15,10 @@
         "twbs/bootstrap": "^4.4",
         "doctrine/orm": "^2.7",
         "components/jquery": "^3.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "FelipeDecome\\ProductSystem\\": "src/"
+        }
     }
 }
