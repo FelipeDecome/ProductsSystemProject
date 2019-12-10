@@ -1,0 +1,15 @@
+{
+    "name": "feldec/products-system",
+    "description": "A simple but efficient system that manages stock and display them for customers.",
+    "type": "project",
+    "require-dev": {
+        "squizlabs/php_codesniffer": "^3.5"
+    },
+    "authors": [
+        {
+            "name": "Felipe Decome",
+            "email": "felipe.decome@hotmail.com"
+        }
+    ],
+    "require": {}
+}
