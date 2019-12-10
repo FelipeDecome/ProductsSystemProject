@@ -11,5 +11,7 @@
             "email": "felipe.decome@hotmail.com"
         }
     ],
-    "require": {}
+    "require": {
+        "twbs/bootstrap": "^4.4"
+    }
 }
