@@ -5,27 +5,53 @@ namespace FelipeDecome\ProductSystem\Entity\Product;
 use Doctrine\ORM\Mapping as ORM;
 
 /**
- * @ORM\Entity
- * @ORM\Table(nama="product")
+ * @Entity
+ * @Table(name="product")
  */
 class Product
 {
     /**
-     * @ORM\Id
-     * @ORM\GeneratedValue
-     * @ORM\Column(type="integer")
+     * @Id
+     * @GeneratedValue
+     * @Column(type="integer")
      * @var int
      */
     private $id;
     /**
-     * @ORM\Column(type="string")
+     * @Column(type="string")
      * @var string
      */
     private $name;
     /**
-     * @ORM\Column(type="integer")
-     * @ORM\ManyToOne(targetEntity="Category", inversedBy="products")
-     * @var int
+     * @ManyToOne(targetEntity="Category")
      */
     private $category;
+
+    public function getId(): int
+    {
+        return $this->id;
+    }
+
+    public function getName(): string
+    {
+        return $this->name;
+    }
+
+    public function setName(string $name): self
+    {
+        $this->name = $name;
+
+        return $this;
+    }
+
+    public function getCategory(): string
+    {
+        return $this->category;
+    }
+
+    public function setCategory(Category $category): self
+    {
+        $this->category = $category;
+        return $this;
+    }
 }

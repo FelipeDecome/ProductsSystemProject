@@ -14,7 +14,8 @@
     "require": {
         "twbs/bootstrap": "^4.4",
         "doctrine/orm": "^2.7",
-        "components/jquery": "^3.4"
+        "components/jquery": "^3.4",
+        "doctrine/migrations": "^2.2"
     },
     "autoload": {
         "psr-4": {
