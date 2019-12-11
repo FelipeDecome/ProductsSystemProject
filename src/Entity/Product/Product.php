@@ -44,7 +44,7 @@ class Product
         return $this;
     }
 
-    public function getCategory(): string
+    public function getCategory(): Category
     {
         return $this->category;
     }
